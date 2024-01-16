@@ -49,8 +49,6 @@ $(".btn12").click(function () {
 $(".btn13").click(function () {
   $(".div13").animate(
     {
-      color: "white",
-      backgroundColor: "yellow",
       height: "500px",
       marginRight: "4rem",
     },

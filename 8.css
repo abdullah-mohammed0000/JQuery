@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+H1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#calculator-design {
+  width: 355px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-shadow: 4px 4px 4px 4px grey;
+  text-align: center;
+}
+
+.display input {
+  height: 100px;
+  width: 335px;
+  text-align: right;
+  padding-right: 2px;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#cal1 {
+  margin-bottom: 3px;
+}
+#cal1 .button {
+  height: 50px;
+  width: 82px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+#cal1 .button:hover {
+  background-color: pink;
+}
+
+.button-style {
+  background-color: blueviolet;
+}
