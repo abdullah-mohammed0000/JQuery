@@ -45,3 +45,15 @@ $(".btn11").click(function () {
 $(".btn12").click(function () {
   $(".div12").slideToggle(3000);
 });
+
+$(".btn13").click(function () {
+  $(".div13").animate(
+    {
+      color: "white",
+      backgroundColor: "yellow",
+      height: "500px",
+      marginRight: "4rem",
+    },
+    2000
+  );
+});
